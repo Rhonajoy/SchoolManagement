@@ -1,10 +1,10 @@
-# Insta Clone
+# School Management
 
 #### Created By Rhonajoy
 
 ## Description
 
-A django based application that is a replication of the instagram app. Users are able to log in, register if they have no accounts.Like pictures and comment on pictures as well as search users based on their profile.Users are also able to update their profiles and add posts.
+This is a system that manages students in a school. it is mean to help the school register Class streams as well as registering students in a specific stream.
 ## Setup Requirements
 
 - Git
@@ -12,14 +12,8 @@ A django based application that is a replication of the instagram app. Users are
 - Github
 - Django 
 - Pip
-- Python 3.8
-- PostgreSQL
-- Cloudinary (for image upload) 
-```
-   - CLOUD_NAME 
-   - API_KEY
-   - API_SECRET
-```
+- Python 3.9
+
 
 ## Setup Installation
 
@@ -44,16 +38,8 @@ curl https://bootstrap.pypa.io/get-pip.py | python
 
 ```
 pip install -r requirements.txt
-```
-
-- To copy .env.example to .env
 
 ```
-cp .env.example .env
-```
-
-- Edit the .env file and replace the values with your own Cloudinary credentials and database credentials
-
 - To run the server
 
 ```
@@ -61,41 +47,18 @@ python manage.py runserver
 
 ```
 
-
 - Open the browser and navigate to http://127.0.0.1:8000/ to see the application in action
 
 ## Technologies Used
 
-The following languages have been used on this project:
+The following languages and technologies have been used on this project:
 
-- HTML
-- CSS
-- Bootstrap
+
 - Python
 - Django
-- PostgreSQL
-
-## Setup/Installation Requirements
-
-- Live link to view the project <a target="_blank" href="">View Insta App</a>
-
-
-
-    
-## Known Bugs
-
- no bugs related to this project 
-
-## Support and contact details 
-
-To make a contribution to the code used or any suggestions you can click on the contact link and email me your suggestions.
-
-- Email: rhonajoy8@gmailcom
-- Phone: +254706555078
+- SQLITE 3
 
 ## License
-
-Copyright (c) 2021 Moringa school
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files , to deal
