@@ -24,7 +24,7 @@ This is a system that manages students in a school. it is mean to help the schoo
 - Run the following command to start the server using virtual environment
 
 ```
-python3.8 -m venv --without-pip virtual
+python3.9 -m venv --without-pip virtual
 ```
 
 - To activate the virtual environment

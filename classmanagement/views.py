@@ -80,10 +80,12 @@ def get_a_student(request, pk):
 def view_students_by_stream(request, stream_id):
     try:
         stream = ClassStream.objects.get(pk=stream_id)
+        print(stream)
     except ClassStream.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)
     
-    students = Student.objects.filter(stream=stream)
+    students = Student.objects.filter(class_stream=stream)
+    print(students)
     serializer = StudentSerializer(students, many=True)
     return Response(serializer.data)
     
