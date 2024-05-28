@@ -9,6 +9,6 @@ urlpatterns = [
     path('streams/<int:pk>/', views.get_a_stream, name='get_stream'),
     path('students',views.create_view_students, name='create_view_students'),
     path('students/<int:pk>', views.get_a_student, name='get_student'),
-    path('streams/<int:stream_id>/students', views.students_by_stream, name='students_by_stream'),
+    path('streams/<int:stream_id>/students', views.view_students_by_stream, name='students_by_stream'),
     
 ]

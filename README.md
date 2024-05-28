@@ -13,7 +13,8 @@ This is a system that manages students in a school. it is mean to help the schoo
 - Django 
 - Pip
 - Python 3.9
-
+## ERD DIAGRAM
+![alt text](assets/School.png)
 
 ## Setup Installation
 
