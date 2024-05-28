@@ -40,6 +40,13 @@ curl https://bootstrap.pypa.io/get-pip.py | python
 pip install -r requirements.txt
 
 ```
+- To make database migrations
+
+```
+python manage.py makemigrations
+python manage.py migrate
+
+```
 - To run the server
 
 ```
